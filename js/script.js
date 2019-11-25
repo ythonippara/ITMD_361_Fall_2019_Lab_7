@@ -10,7 +10,6 @@ function init(){
   }
   
   button.addEventListener('click', showConfirmationDialog);
-  
 }
 
 window.addEventListener('load', init);
