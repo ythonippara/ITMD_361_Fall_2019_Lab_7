@@ -1,18 +1,15 @@
 function init(){
   //add your JavaScript between these two lines of code
   
-  textfield.addEventListener('click', showMeSomeText);
-  button.addEventListener('click', alertButton);
+  button.addEventListener('click', showMeSomeText);
   
   function showMeSomeText() {
     var texfield = document.getElementById('entryinput');
-    alert("Yulia Thonippara: " + textfield.value);
-  }
-  
-  function alertButton() {
     var button = document.getElementById('entrybutton');
+    alert("Yulia Thonippara: " + textfield.value);
     document.getElementById('textoutput').innerHTML = textfield.value;
   }
+  
 }
 
-window.addEventListener('onload', init);
+window.addEventListener('load', init);
