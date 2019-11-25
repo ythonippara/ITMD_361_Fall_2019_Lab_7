@@ -3,13 +3,13 @@ function init(){
   
   var button = document.getElementById('entrybutton');
   
-  button.addEventListener('click', showMeSomeText);
-  
-  function showMeSomeText() {
+  function showConfirmationDialog() {
     var texfield = document.getElementById('entryinput');
     alert("Yulia Thonippara: " + textfield.value);
     document.getElementById('textoutput').innerHTML = textfield.value;
   }
+  
+  button.addEventListener('click', showConfirmationDialog);
   
 }
 
