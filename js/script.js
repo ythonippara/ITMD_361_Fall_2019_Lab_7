@@ -4,11 +4,12 @@ function init(){
   
   function showSomeText(){
     var texfield = document.getElementById('entryinput');
-    document.getElementById('textoutput').innerHTML = textfield.value;
+    textfield.value
     alert("Yulia Thonippara: " + textfield.value);
+    document.getElementById('textoutput').innerHTML = textfield.value;
   }
   
-  button.addEventListener('click', showSomeText);
+  button.addEventListener('onclick', showSomeText);
 }
 
 window.addEventListener('onload', init);
