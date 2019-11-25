@@ -4,7 +4,7 @@ function init() {
   document.getElementById("entrybutton").addEventListener("click", showConfirmationDialog);
   
   function showConfirmationDialog() {
-    var texfield = document.getElementById("entryinput");
+    var textfield = document.getElementById("entryinput");
     alert("Yulia Thonippara: " + textfield.value);
     document.getElementById("textoutput").innerHTML = textfield.value;
   }
