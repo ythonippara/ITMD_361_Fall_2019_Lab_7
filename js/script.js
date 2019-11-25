@@ -7,6 +7,7 @@ function init() {
     var textfield = document.getElementById("entryinput");
     alert("Yulia Thonippara: " + textfield.value);
     document.getElementById("textoutput").innerHTML = textfield.value;
+    textfield.value = " ";
   }
 }
 
